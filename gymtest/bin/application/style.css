@@ -1,0 +1,98 @@
+/* dashboardDesign.css */
+
+/* style.css */
+
+/* Apply styles to labels */
+.label1 {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Apply styles to text fields */
+.textfield1 {
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px;
+    -fx-padding: 2px;
+}
+
+/* Apply styles to buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 30px;
+}
+
+/* Apply styles to the form background */
+#search_form {
+    -fx-background-color: #f4f4f4;
+}
+
+/* Apply styles to the form container */
+#search_form > AnchorPane {
+    -fx-padding: 20px;
+}
+
+/* Apply styles to the grid pane */
+#search_form > AnchorPane > GridPane {
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+
+/* Apply styles to the image view */
+#addEmployee_image1 {
+    -fx-border-color: #333333;
+    -fx-border-width: 1px;
+     -fx-border-radius: 5px;
+}
+
+/* Apply styles to the validation image view */
+#validation {
+    -fx-fit-height: 167px;
+    -fx-fit-width: 200px;
+}
+
+/* Apply styles to buttons */
+#search_form > Button {
+    -fx-font-size: 14px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 30px;
+    -fx-margin: 10px;
+}
+ /* Add specific styling for days_left2 text field */
+
+
+#days_left_2{
+	-fx-font-size: 16px;
+    -fx-pref-width: 120px;
+    -fx-padding: 2px;
+    -fx-background-color: #ffffff; /* Set a background color */
+    -fx-border-color: #333333; /* Set a border color */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px; /* Add rounded corners */
+    -fx-text-fill: #333333;
+}
+#date_fin{
+	-fx-font-size: 16px;
+    -fx-pref-width: 120px;
+    -fx-padding: 2px;
+    -fx-background-color: #ffffff; /* Set a background color */
+    -fx-border-color: #333333; /* Set a border color */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px; /* Add rounded corners */
+    -fx-text-fill: #333333;
+	
+}
+#abonmet_type{
+	-fx-font-size: 16px;
+    -fx-pref-width: 120px;
+    -fx-padding: 2px;
+    -fx-background-color: #ffffff; /* Set a background color */
+    -fx-border-color: #333333; /* Set a border color */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px; /* Add rounded corners */
+    -fx-text-fill: #333333;
+	
+}
+  
+
+

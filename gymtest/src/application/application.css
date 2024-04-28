@@ -1,0 +1,73 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/* Apply styles to the VBox */
+/* Apply styles to the VBox */
+VBox {
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-background-color: #f4f4f4;
+}
+
+/* Apply styles to the GridPane */
+GridPane {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+/* Apply styles to the Labels */
+Label {
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+/* Apply styles to the TextFields */
+TextField {
+    -fx-pref-width: 200;
+    -fx-padding: 5;
+    -fx-font-size: 14;
+    -fx-background-color:  #fff;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 3;
+}
+
+/* Apply styles to the Buttons */
+Button {
+    -fx-font-size: 14;
+    -fx-padding: 8 16;
+    -fx-background-color: #95a5a6;
+    -fx-text-fill: #fff;
+    -fx-border-radius: 3;
+    -fx-border-width: 1;
+    -fx-border-color: #95a5a6;
+}
+
+/* Apply styles to the HBox */
+HBox {
+    -fx-spacing: 10;
+}
+
+/* Apply styles to the ImageView */
+ImageView {
+    -fx-border-color: #ccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+}
+
+/* Apply styles to the DatePickers */
+DatePicker {
+    -fx-pref-width: 200;
+    -fx-padding: 5;
+    -fx-font-size: 14;
+}
+
+/* Apply styles to the form elements */
+.form-element {
+    -fx-padding: 5;
+}
+/* Apply styles to the ImageView */
+#profileImageView {
+    -fx-border-color: brown;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-padding: 5; /* Optional padding for the image */
+}
